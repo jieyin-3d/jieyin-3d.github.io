@@ -73,7 +73,7 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi there!',
+        title: 'Hola there!',
         text: "My name is Justin Case. I'm a freelance front-end developer, author and speaker based in Austin, TX. It's nice to meet you.",
         avatar: {
             src: heroAvatar,
