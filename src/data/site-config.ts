@@ -7,13 +7,13 @@ import type { SiteConfig } from '../types';
 const siteConfig: SiteConfig = {
     logo: {
         src: logoUrl,
-        alt: 'Ovidius logo'
+        alt: '捷印工坊 logo'
     },
-    title: 'Ovidius',
-    description: 'Astro.js and Tailwind CSS theme for blogging by justgoodui.com',
+    title: '捷印工坊',
+    description: '您好！歡迎來到 「捷印工坊」「於角落之中，刻畫生活的立體維度。」',
     image: {
         src: defaultSocial,
-        alt: 'Ovidius - Astro.js and Tailwind CSS theme'
+        alt: '捷印工坊 - Astro.js and Tailwind CSS theme'
     },
     primaryNavLinks: [
         {
