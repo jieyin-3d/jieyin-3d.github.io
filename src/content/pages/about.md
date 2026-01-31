@@ -1,5 +1,5 @@
 ---
-title: About
+title: 關於我們
 featureImage:
   src: '../../assets/images/about.jpg'
   alt: The portrait of a person
@@ -10,10 +10,10 @@ seo:
     src: '../../assets/images/about.jpg'
 ---
 
-**This is demo content for [Ovidius](https://github.com/JustGoodUI) Astro.js and Tailwind CSS theme created by [justgoodui.com](https://justgoodui.com/).**
+**從心出發，將靈感打磨成實體的 3D 空間。**
 
-Justin Case is a senior developer from Vilnius, Lithuania. After graduating from The College with a degree in Computer Science, he worked for three small web shops where he honed his development skills and love for JavaScript.
+歡迎來到「捷印工坊」，我專注於 3D 建模與產品開發。 從汽車客製化零件到生活美學器物，我致力於用技術解決日常需求。 在我的居家工作室中，每一件作品都是對功能與美感的極致追求。
 
-> Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep.
+> 「3D 技術不只是虛擬影像，更是解決問題、提升美感的實踐。」
 
-His work has been recognized by Communication Arts, IBM, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Net magazine named him a person to watch in 2023.
+邀請您瀏覽我的作品，感受 3D 設計為生活帶來的無限可能。 若您有任何客製化想法，歡迎與我聯繫，一同實現創意。

@@ -1,14 +1,12 @@
 ---
-title: Get in touch
+title: 聯絡我們
 seo:
   title: Contact
   description: Get in touch through email or social media! Let me know how I can help.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+對作品感興趣或有客製化需求嗎？歡迎隨時與我聯繫，我們將盡快回覆您的諮詢。
 
-_Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+您可以透過 Line 進行即時討論，或前往 蝦皮賣場 直接選購現有作品。
 
-_Social Media:_
-Connect with me on social media as well. Find me on [X/Twitter](https://x.com) or [LinkedIn](https://www.linkedin.com/).
+歡迎追蹤我們的 Facebook 獲取最新設計動態，讓我們一起用 3D 技術打造專屬您的實體物件。

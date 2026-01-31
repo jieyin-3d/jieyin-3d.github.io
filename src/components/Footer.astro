@@ -1,36 +1,17 @@
 ---
 import siteConfig from '../data/site-config';
-import SocialLink from './SocialLink.astro';
 
-const socialLinks = siteConfig.socialLinks ?? [];
-const secondaryNavLinks = siteConfig.secondaryNavLinks ?? [];
-const currentYear = new Date().getFullYear();
+const year = new Date().getFullYear();
 ---
 
-<footer class="px-4 py-8 sm:px-8 sm:py-12">
-    {
-        secondaryNavLinks.length > 0 && (
-            <nav class="flex flex-wrap justify-center w-full max-w-3xl mx-auto mb-6 gap-x-6 gap-y-1" aria-label="Footer navigation">
-                {secondaryNavLinks.map((link) => (
-                    <a class="transition text-slate-700 hover:text-slate-500" href={link.href}>
-                        {link.text}
-                    </a>
-                ))}
-            </nav>
-        )
-    }
-    {
-        socialLinks.length > 0 && (
-            <div class="flex flex-wrap justify-center w-full max-w-3xl mx-auto mb-6 gap-x-4 gap-y-3">
-                {socialLinks.map((link) => (
-                    <SocialLink {...link} class="hover:bg-primary hover:shadow-button bg-slate-50 text-slate-700 hover:text-white" />
-                ))}
-            </div>
-        )
-    }
-    <p class="text-xs tracking-wider text-center uppercase text-slate-700">
-        &copy; {currentYear}
-        <a class="underline text-primary hover:no-underline" href="/">{siteConfig.title}</a>. Created with Astro.js &
-        <a class="underline text-primary hover:no-underline" href="https://justgoodui.com/astro-themes/ovidius/"> Ovidius theme</a>.
-    </p>
+<footer class="py-8 border-t border-slate-200 bg-slate-50">
+    <div class="px-4 mx-auto max-w-3xl text-sm text-center text-slate-500 sm:px-6 xl:max-w-6xl">
+        <p>
+            &copy; {year} {siteConfig.title}. 版權所有.
+        </p>
+        <p class="mt-2">
+            Created with <a href="https://astro.build" target="_blank" rel="noopener noreferrer" class="hover:text-slate-700 underline decoration-slate-300 underline-offset-2">Astro</a>
+            & <a href="https://github.com/vickvas/ovidius-astro-blog-theme" target="_blank" rel="noopener noreferrer" class="hover:text-slate-700 underline decoration-slate-300 underline-offset-2">Ovidius</a>
+        </p>
+    </div>
 </footer>

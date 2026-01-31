@@ -17,43 +17,29 @@ const siteConfig: SiteConfig = {
     },
     primaryNavLinks: [
         {
-            text: 'Home',
+            text: '首頁',
             href: '/'
         },
         {
-            text: 'Blog',
+            text: '分類',
             href: '/blog'
         },
         {
-            text: 'About',
+            text: '關於',
             href: '/about'
         },
         {
-            text: 'Contact',
+            text: '聯絡我們',
             href: '/contact'
         },
-        {
-            text: 'Download Theme',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme'
-        }
+
     ],
     secondaryNavLinks: [
         {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Terms of Service',
-            href: '/terms'
-        },
-        {
-            text: 'Contact',
+            text: '聯絡我們',
             href: '/contact'
         },
-        {
-            text: 'Download Theme',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme'
-        }
+
     ],
     socialLinks: [
         {
@@ -63,18 +49,18 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Follow on Instagram',
-            href: 'https://instagram.com/',
+            href: 'https://line.me/R/ti/p/@921gkczn',
             icon: 'instagram'
         },
         {
             text: 'Follow on Bluesky',
-            href: 'https://bsky.app/profile/justgoodui.com',
+            href: 'https://tw.shp.ee/4REZSGN',
             icon: 'bluesky'
         }
     ],
     hero: {
-        title: 'Hola there!',
-        text: "My name is Justin Case. I'm a freelance front-end developer, author and speaker based in Austin, TX. It's nice to meet you.",
+        title: '捷印工坊',
+        text: "您好！歡迎來到 「捷印工坊」「於角落之中，刻畫生活的立體維度。」",
         avatar: {
             src: heroAvatar,
             alt: 'Justin Case'
@@ -85,12 +71,12 @@ const siteConfig: SiteConfig = {
     },
     subscribe: {
         enabled: true,
-        title: 'Subscribe to Ovidius Newsletter',
-        text: 'One update per week. All the latest news directly in your inbox.',
+        title: '若您有需要，我們可以協助您列印 3D 作品',
+        text: '歡迎來信諮詢，我們將盡快回覆。您可以提供 STL 檔案，我們將為您提供免費估價，完全無須承擔任何費用。',
         form: {
-            action: 'https://justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117&amp;f_id=005c48e2f0',
+            action: 'mailto:jieyingongfang@gmail.com',
             emailFieldName: 'EMAIL',
-            honeypotFieldName: 'b_78f1bab16028354caeb23aecd_4a7330d117'
+            honeypotFieldName: ''
         }
     },
     postsPerPage: 5

@@ -37,7 +37,9 @@ const blog = page.data;
                         </a>
                     )
                 }
-                <span class="text-sm tracking-wider uppercase text-slate-500" aria-current="page">Page {page.currentPage} of {page.lastPage}</span>
+                <span class="text-sm tracking-wider uppercase text-slate-500" aria-current="page">
+                    第 {page.currentPage} 頁 / 共 {page.lastPage} 頁
+                </span>
                 {
                     page.url.next && (
                         <a
