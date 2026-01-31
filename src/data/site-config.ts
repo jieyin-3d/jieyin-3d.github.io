@@ -32,30 +32,28 @@ const siteConfig: SiteConfig = {
             text: '聯絡我們',
             href: '/contact'
         },
-
     ],
     secondaryNavLinks: [
         {
             text: '聯絡我們',
             href: '/contact'
         },
-
     ],
     socialLinks: [
         {
             text: 'Go to GitHub repo',
             href: 'https://github.com/JustGoodUI/ovidius-astro-theme',
-            icon: 'github'
+            icon: 'github' // ¿Mantienes el GitHub del tema original? Si es el tuyo, está bien.
         },
         {
-            text: 'Follow on Instagram',
+            text: 'Follow on Line', // Cambiado texto para coincidir
             href: 'https://line.me/R/ti/p/@921gkczn',
-            icon: 'instagram'
+            icon: 'instagram' // Ojo: Se verá como Instagram
         },
         {
-            text: 'Follow on Bluesky',
+            text: 'Visit Shopee Store', // Cambiado texto para coincidir
             href: 'https://tw.shp.ee/4REZSGN',
-            icon: 'bluesky'
+            icon: 'bluesky' // Ojo: Se verá como Bluesky
         }
     ],
     hero: {
