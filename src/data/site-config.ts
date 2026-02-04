@@ -42,7 +42,7 @@ const siteConfig: SiteConfig = {
     socialLinks: [
         {
             text: 'Go to GitHub repo',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme',
+            href: 'https://www.facebook.com/people/捷印工坊/61586933412284/',
             icon: 'github' // ¿Mantienes el GitHub del tema original? Si es el tuyo, está bien.
         },
         {
