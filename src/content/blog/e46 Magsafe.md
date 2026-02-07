@@ -5,7 +5,7 @@ publishDate: 'Feb 01 2026'
 featureImage:
   src: 'https://res.cloudinary.com/dqbnpczl7/image/upload/v1769931588/e46_magsafe2_fodi1u.webp'
   alt: '安裝於 BMW E46 儀錶板側邊的 MagSafe 磁吸手機支架'
-isFeatured: false
+isFeatured: true
 seo:
   image:
     src: 'https://res.cloudinary.com/dqbnpczl7/image/upload/v1769931588/e46_magsafe2_fodi1u.webp'

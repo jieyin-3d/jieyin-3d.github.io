@@ -5,7 +5,7 @@ publishDate: 'Jan 31 2026'
 featureImage:
   src: 'https://res.cloudinary.com/dqbnpczl7/image/upload/v1768880288/05_o4vzxp.png'
   alt: 'BMW E46 專用 MagSafe 手機支架安裝完成圖'
-isFeatured: false
+isFeatured: true  
 seo:
   image:
     src: 'https://res.cloudinary.com/dqbnpczl7/image/upload/v1768880288/05_o4vzxp.png'

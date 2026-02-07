@@ -5,6 +5,7 @@ publishDate: 'Feb 01 2026'
 featureImage:
   src: 'https://res.cloudinary.com/dqbnpczl7/image/upload/v1769932143/e46_vaso_magsafe1_a3lnhi.webp'
   alt: '安裝於 BMW E46 置杯架中的 3D 列印 MagSafe 手機支架'
+isFeatured: true
 seo:
   image:
     src: 'https://res.cloudinary.com/dqbnpczl7/image/upload/v1769932143/e46_vaso_magsafe1_a3lnhi.webp'
